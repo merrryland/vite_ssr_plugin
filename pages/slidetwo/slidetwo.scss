@@ -1,0 +1,76 @@
+.slide_two {
+  background: url('./img/bg.jpg') 0 0 / contain no-repeat;
+
+  .title {
+    position: absolute;
+    width: 361px;
+    height: 69.5px;
+    background: url('./img/title.png') 0 0 / contain no-repeat;
+    top: 115.5px;
+    left: 681.5px;
+  }
+
+  .dsclr {
+    position: absolute;
+    width: 1112.5px;
+    height: 51.5px;
+    background: url('./img/dsclr.png') 0 0 / contain no-repeat;
+    top: 738.5px;
+    left: 149px;
+  }
+
+  .txt_block {
+    position: absolute;
+    width: 572px;
+    height: 481.5px;
+    background: url('./img/txt_block.png') 0 0 / contain no-repeat;
+    top: 216.5px;
+    left: 580.5px;
+  }
+
+  .msg {
+    position: absolute;
+    width: 417.5px;
+    height: 122px;
+    background: url('./img/msg.png') 0 0 / contain no-repeat;
+    top: 611px;
+    left: 93.5px;
+  }
+
+  .img {
+    position: absolute;
+    width: 550.5px;
+    height: 670px;
+    background: url('./img/img.png') 0 0 / contain no-repeat;
+    top: 130px;
+    left: 54.5px;
+  }
+
+  .vitamin {
+    position: absolute;
+    width: 349.5px;
+    height: 359px;
+    background: url('./img/vitamin.png') 0 0 / contain no-repeat;
+    top: 48.5px;
+    left: 0px;
+  }
+}
+@media (width: 1024px) {
+  .vtrmd3_farm_008_2207 {
+    background-size: cover;
+    .scale-wrapper {
+      position: absolute;
+      transform: scale(0.8);
+      top: 90px;
+    }
+    .dsclr {
+      top: 785px;
+    }
+    .img {
+      top: 179px;
+    }
+    .msg {
+      top: 661px;
+    }
+  }
+}

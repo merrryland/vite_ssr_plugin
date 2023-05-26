@@ -1,0 +1,96 @@
+.slide_one {
+  background: url('./img/bg.jpg') 0 0 / contain no-repeat;
+
+  .title {
+    position: absolute;
+    width: 674px;
+    height: 45px;
+    background: url('./img/title.png') 0 0 / contain no-repeat;
+    top: 110px;
+    left: 127px;
+  }
+
+  .subtitle {
+    position: absolute;
+    width: 787.5px;
+    height: 22px;
+    background: url('./img/subtitle.png') 0 0 / contain no-repeat;
+    top: 167px;
+    left: 126.5px;
+  }
+
+  .dsclr {
+    position: absolute;
+    width: 1112.5px;
+    height: 51.5px;
+    background: url('./img/dsclr.png') 0 0 / contain no-repeat;
+    top: 738.5px;
+    left: 149px;
+  }
+
+  .expired-date {
+    position: absolute;
+    width: 269px;
+    height: 93.5px;
+    background: url('./img/expired-date.png') 0 0 / contain no-repeat;
+    top: 647px;
+    left: 1011px;
+  }
+
+  .block_3 {
+    position: absolute;
+    width: 353.5px;
+    height: 598.5px;
+    background: url('./img/block_3.png') 0 0 / contain no-repeat;
+    top: 201.5px;
+    left: 810px;
+  }
+
+  .block_2 {
+    position: absolute;
+    width: 353.5px;
+    height: 598.5px;
+    background: url('./img/block_2.png') 0 0 / contain no-repeat;
+    top: 201.5px;
+    left: 422.5px;
+  }
+
+  .block_1 {
+    position: absolute;
+    width: 353.5px;
+    height: 598.5px;
+    background: url('./img/block_1.png') 0 0 / contain no-repeat;
+    top: 201.5px;
+    left: 36.5px;
+  }
+
+  .dots {
+    position: absolute;
+    width: 580.5px;
+    height: 502px;
+    background: url('./img/dots.png') 0 0 / contain no-repeat;
+    top: 118px;
+    left: 699.5px;
+  }
+}
+@media (width: 1024px) {
+  .vtrmd3_farm_007_2207 {
+    background-size: cover;
+    .scale-wrapper {
+      position: absolute;
+      transform: scale(0.8);
+      top: 90px;
+    }
+    .dsclr {
+      top: 785px;
+    }
+    .block_1,
+    .block_2,
+    .block_3 {
+      top: 251.5px;
+    }
+    .expired-date {
+      top: 692px;
+    }
+  }
+}
